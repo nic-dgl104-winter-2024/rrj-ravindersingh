@@ -40,3 +40,5 @@ Wikipedia's page on Lua also offers a wealth of information about the language, 
 For those who prefer structured learning, the chapter on Lua in the Springer link provided offers in-depth insights into Lua programming concepts. It may be especially helpful for those looking for more technical information or exploring Lua for academic purposes.
 
 If you're just starting out and want a beginner-friendly guide, the Turing blog post on Lua programming is an excellent resource. It provides a comprehensive introduction to Lua, covering everything from basic syntax to advanced topics, in an easy-to-understand format.
+## Reflection
+Researching Lua has taught me a lot about how it's used in different areas. It's not just for making games but also for controlling smart devices and even websites. People who make games, software, and gadgets all use Lua. I found some helpful resources like the Lua website and Wikipedia, which explain everything in simple terms. These resources have made it easier for me to understand Lua and how it works. Overall, learning about Lua has been interesting, and I'm excited to use it in my projects.
