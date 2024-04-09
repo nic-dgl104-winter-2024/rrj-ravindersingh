@@ -172,12 +172,9 @@ So you’re thinking about contributing to LitJSON? Great! It’s really appreci
 ## CONTRIBUTE TO EXTERNAL COMMUNITY
 After reviewing all the requirements, I installed all the necessary packages and tools as instructed. Next, I forked the repository and downloaded the project to my computer. To check if everything was set up correctly, I created a simple "hello world" program and ensured it compiled and ran smoothly.
 
-Then, I explored various websites and thoroughly read the documentation for LitJson. I realized there wasn't a built-in function to ignore null values during deserialization. After some research, I discovered a manual method to ignore null values while deserializing the data.
-
 ## CONTRIBUTE TO PATTERN-LIBRARY
 For part 2 of the community code project, I chose C# and decided to implement the singleton pattern. After learning about different ways to do this, I went with the lazy singleton method.
 
-I started by creating a basic example using a student class with name, age, and grade attributes. Then, I made sure that only one instance of this class existed using the singleton pattern. This allowed me to easily manage and update student data throughout the program without any duplication.
 
 ## REFLECTION
 I successfully completed the setup for the community code project by installing the required packages and tools, forking the repository, and downloading the project to my computer. I confirmed everything was working smoothly with a simple "hello world" program.
@@ -185,6 +182,15 @@ I successfully completed the setup for the community code project by installing 
 During my exploration of LitJson, I encountered a challenge when I realized there was no built-in function to ignore null values during deserialization. However, I found a manual method to address this issue through further research.
 
 Moving on to part 2 of the project, I chose C# and decided to implement the singleton pattern using the lazy singleton method. By creating a basic example with a student class and ensuring only one instance existed, I was able to effectively manage student data without duplication throughout the program.
+
+## week - 11
+### READ THROUGH PATTERN LIBRARY ISSUES
+#### CONTINUE CONTRIBUTIONS TO EXTERNAL COMMUNITY
+After doing the research, I explored various websites and thoroughly read the documentation for LitJson. I realized there wasn't a built-in function to ignore null values during deserialization. After some research, I discovered a manual method to ignore null values while deserializing the data.
+#### CONTINUE CONTRIBUTE TO PATTERN-LIBRARY
+I started the work by creating a basic example using a student class with name, age, and grade attributes. Then, I made sure that only one instance of this class existed using the singleton pattern. This allowed me to easily manage and update student data throughout the program without any duplication.
+
+
 
 
 
