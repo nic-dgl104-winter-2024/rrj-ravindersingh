@@ -62,3 +62,8 @@ I've chosen C# for the community code project because I'm already learning it in
 * https://github.com/KevinDockx/CSharp10DesignPatterns :- A GitHub repository featuring examples and explanations of various design patterns implemented in C# 10, aiding developers in understanding and implementing best practices in software design.
 
 * https://github.com/doghappy/socket.io-client-csharp :- A GitHub repository offering a C# client library for Socket.IO, allowing developers to communicate between server and client applications using WebSockets.
+### Week 9
+## FIND POTENTIAL PROJECTS TO CONTRIBUTE TO
+### Community Code Project Repo
+For the community code project (part 1), I've picked two repositories: LitJson and SQLite. From LitJson, I've selected two issues to address, and from SQLite, I've chosen one issue to focus on solving.
+
