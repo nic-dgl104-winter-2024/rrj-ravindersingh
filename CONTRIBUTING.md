@@ -1,4 +1,11 @@
-# Intoduction
+# Community Code Project(Part 1)
+## Overview
+The initial issue involved a community member utilizing the Litjson library for data deserialization while attempting to handle null values. I dedicated time to resolving this matter, successfully implementing a solution and rigorously testing it on my own PC. The outcome was a flawless execution.
+
+In the second scenario, a fellow coder encountered difficulties updating records in SQLite using the Insert or Update query. Fortunately, I discovered a solution outlined in an article, and after validating it on an online compiler, confirmed its effectiveness in resolving the issue.
+
+The third problem was about someone having trouble putting deserialized data into an array of objects. Even though I didn't fully understand the problem at first, I asked for clarification and got it from the person. While I didn't work on fixing this issue directly, I did get some ideas on how it could be solved.
+## Intoduction
 ## Project Name: LitJson
 The LitJSON community code project is an open-source initiative aimed at developing and maintaining a lightweight and efficient JSON library for the .NET platform. Built upon the principles of simplicity, performance, and ease of use, LitJSON provides developers with a robust toolset for working with JSON data in their .NET applications.
 ### Key Feaures
