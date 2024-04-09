@@ -211,14 +211,18 @@ During my exploration of LitJson, I encountered a challenge when I realized ther
 In part 2 of the project, I added more features. First, I created another object and updated the data. Then, I made another instance and checked if they were the same. Finally, I checked if the instance existed or not.
 
 ## Reflection of Overall Projects and RRJ
-Part - 1 Reflection (External Community)
+
+### Part - 1 Reflection (External Community)
 
 In the community code external project, I learned how people collaborate on different projects by sharing them on platforms like GitHub. They make their projects public and invite others to contribute by doing things like creating documentation, reviewing code, and testing for errors. If someone encounters a problem they can't solve, they can create an issue and others can work on solving it. Additionally, project owners can review and approve changes made by others before merging them into the main project. People can also fork projects, create separate branches, and work on different parts of the project simultaneously. This collaborative approach allows for efficient teamwork and helps projects progress more effectively.
 
-Part - 2 Reflection (Internal Community)
+### Part - 2 Reflection (Internal Community)
 In the internal community code project, we had the option to contribute by doing documentation, code review, or coding. Since I was comfortable with coding, I chose that part. While working on my code, I continuously pushed it to GitHub in my branch. After finishing the first version, I created a pull request. The instructor reviewed my code and gave feedback, and others also provided valuable input based on their experience. I made the necessary changes based on the feedback and created the final version, asking the instructor to merge it into the main branch.
 
 From this project, I learned the importance of collaboration and working together to improve a project. It showed me how people with different skills can come together to make something stronger. This way, those interested in learning can benefit from the collective effort.
+
+### Research and Reflection Journal (RRJ)
+During my experience with the Research and Reflection Journal (RRJ), I learned the importance of keeping records of our project activities. RRJ helps us manage our work by documenting what we do each day or week. It's like keeping a diary of our project journey, where we write down what we've accomplished and any challenges we faced. By updating RRJ regularly, we can track our progress, see how far we've come, and remember what we've learned. It's a handy way to stay organized and reflect on our work. Overall, RRJ is a useful tool for managing projects and keeping a record of our achievements.
 
 
 
