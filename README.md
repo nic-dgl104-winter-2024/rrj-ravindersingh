@@ -88,6 +88,17 @@ SqlKata Query Builder is a powerful Sql Query Builder written in C#. It's secure
 
 ![Issue screenshot](https://github.com/nic-dgl104-winter-2024/rrj-ravindersingh/assets/54470199/73d4e78a-b27c-4726-a708-3e434482e9dc)
 
+## IDENTIFY ISSUES TO SUPPORT
+### Issue 1: How to set to ignore Null objects? #121
+Link: https://github.com/LitJSON/litjson/issues/121
+### Summary 
+This issue, raised by corbinyo, to find a way to handle null values during deserialization. The task involved ensuring that null values from JSON data were ignored when converting it into C# objects. He is using the Litjson library for the serialization and deserialization.
+
+### Issue 2: How can i do "InsertOrReplace" in sqlite #641
+Link: https://github.com/sqlkata/querybuilder/issues/641
+### Summary 
+This issue, raised by H0nok4 on Nov 17, 2022, The person is having trouble with doing an "insert or replace" action in SQLite. They're finding it tricky to insert new data or replace existing data in the table at the same time. They're looking for a straightforward way to solve this problem in SQLite.
+
 
 
 
