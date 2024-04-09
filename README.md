@@ -29,3 +29,14 @@ The resources which is mentioned below, offer a variety of learning options for 
 * Springer Link: [Lua Chapter](https://link.springer.com/chapter/10.1007/979-8-8688-0060-3_3) - Offers in-depth insights into Lua programming concepts.
 
 * Turing Blog: [Lua Programming Language: A Beginner's Guide](https://www.turing.com/blog/lua-programming-language-beginners-guide/) - Provides a beginner-friendly introduction to Lua programming.
+
+## Why are these specific resources useful?
+These are great resource if someone is really intersted to learn Lua.
+
+The Lua website (lua.org) is a fantastic place to begin. It provides official documentation, tutorials, and guides to help you understand the language and its features.
+
+Wikipedia's page on Lua also offers a wealth of information about the language, including its history, features, and common uses. It's a great resource for gaining a deeper understanding of Lua's background and capabilities.
+
+For those who prefer structured learning, the chapter on Lua in the Springer link provided offers in-depth insights into Lua programming concepts. It may be especially helpful for those looking for more technical information or exploring Lua for academic purposes.
+
+If you're just starting out and want a beginner-friendly guide, the Turing blog post on Lua programming is an excellent resource. It provides a comprehensive introduction to Lua, covering everything from basic syntax to advanced topics, in an easy-to-understand format.
