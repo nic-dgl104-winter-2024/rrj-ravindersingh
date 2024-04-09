@@ -6,7 +6,6 @@ In the second scenario, a fellow coder encountered difficulties updating records
 
 The third problem was about someone having trouble putting deserialized data into an array of objects. Even though I didn't fully understand the problem at first, I asked for clarification and got it from the person. While I didn't work on fixing this issue directly, I did get some ideas on how it could be solved.
 ## Issue 1
-## Intoduction
 ## Project Name: LitJson
 The LitJSON community code project is an open-source initiative aimed at developing and maintaining a lightweight and efficient JSON library for the .NET platform. Built upon the principles of simplicity, performance, and ease of use, LitJSON provides developers with a robust toolset for working with JSON data in their .NET applications.
 ### Key Feaures
@@ -134,4 +133,78 @@ dotnet restore
 Reflecting on the success of solving the issue, I did manage to fix it in the end. But it wasn't a straightforward journey. I spent a lot of time going through the LitJSON documentation, hoping to find an easy way to skip null values during data reading. Unfortunately, I couldn't find any built-in solution in LitJSON or similar libraries. I even searched online forums like Stack Overflow, but no luck there either. Eventually, I realized I could manually check the data after reading it, which turned out to be the solution. However, when testing the code in Visual Studio, I ran into some errors because I hadn't installed the LitJSON package properly. I had to watch some YouTube tutorials to figure it out. Despite the challenges, I eventually got it all working.
 ### Discussion of next steps
 To enhance the code, I plan to create a generic function where I can pass values dynamically. My research led me to Text RegularExpressions Regex, which could be useful for creating this generic class. I'll need to learn more about Regex and how to implement it in my project. Once I've replicated the solution in my code, I'll test it with different types of JSON data and ensure proper error handling. Finally, I'll make the solution publicly available so others can benefit from it.
+
+# Issue 2
+## Project Name: queryBuilder
+SqlKata Query Builder is a powerful Sql Query Builder written in C#. It's secure and framework agnostic. Inspired by the top Query Builders available, like Laravel Query Builder and Knex.SqlKata has an expressive API. it follows a clean naming convention, which is very similar to the SQL syntax. By providing a level of abstraction over the supported database engines, that allows you to work with multiple databases with the same unified API. SqlKata supports complex queries, such as nested conditions, selection from SubQuery, filtering over SubQueries, Conditional Statements and others. Currently, it has built-in compilers for SqlServer, MySql, PostgreSQL, and Firebird.
+
+The full documentation is avaiable on https://sqlkata.com
+### Link
+https://github.com/Ravi-takhi/Ravi-dev-queryBuilder/tree/Ravi-dev-branch
+### Summary of issues examined
+This [issue](https://github.com/sqlkata/querybuilder/issues/641), raised by H0nok4 on Nov 17, 2022, The person is having trouble with doing an "insert or replace" action in SQLite. They're finding it tricky to insert new data or replace existing data in the table at the same time. They're looking for a straightforward way to solve this problem in SQLite.
+### Detailed discussion of issues contributed to
+The person is asking about how to handle inserting or updating data in their SQLite database. They want to update the data if a key already exists. After checking the documentation for SqlKata and finding no solution, they looked into SQLite's documentation and found some helpful information. I refer to the SQLite language documentation available at: https://www.sqlite.org/lang.html
+### Solution
+#### Introduction to the SQLite REPLACE statement
+The REPLACE statement works by executing two steps when a UNIQUE or PRIMARY KEY constraint violation happens:
+* Initially, it removes the existing row that triggers the constraint violation.
+* Then, it proceeds to insert a new row in its place.
+#### Syntax of the REPLACE statement
+``` sql
+INSERT OR REPLACE INTO table(column_list)
+VALUES(value_list);
+```
+#### Example of INSERT OR REPLACE students data
+1. First, assuming you have a table named "students" with columns "id" (primary key), "name", and "age".
+``` sql
+CREATE TABLE IF NOT EXISTS students (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    age INTEGER
+);
+```
+2. Then, you can use the following SQL statement to update or insert student records
+``` sql
+INSERT OR REPLACE INTO students (id, name, age)
+VALUES 
+    (1, 'Ravi', 20),  -- Assuming student with id 1 already exists, this will update Ravi's record
+    (2, 'Kuljit', 22), -- Assuming student with id 2 doesn't exist, this will insert a new record for Kuljit
+    (3, 'Monika', 21); -- Assuming student with id 3 doesn't exist, this will insert a new record for Monika
+```
+### Code review and outcomes
+#### Code review
+Kuljit has reviwed my code and shared some feedback points for making a table called "students" and putting in new information or updating existing information. She thought the way I made the table was good, with rules to keep the data organized. Using "INSERT OR REPLACE INTO" was smart because it either adds new info or changes old info if it's already there. The comments you wrote next to each new piece of information helped to understand what's going on. However, She suggested adding another part to the code before updating the records. This part would put some initial information into the table right after creating it. Doing this would help people see how the table works and how the updates happen. Kuljit also thought the code was easy to understand overall.
+#### Outcome
+After Kuljit's review of my code for creating and updating the "students" table, it's clear that the initial structure and approach were well-received. The thoughtful organization of the table and the use of "INSERT OR REPLACE INTO" for updating records were noted as smart choices. Additionally, the inclusion of explanatory comments alongside each piece of data was appreciated for enhancing clarity.
+
+Kuljit's suggestion to add an initial data insertion step before updating records is insightful. This addition would provide a practical demonstration of the table's functionality, aiding in understanding for future developers. Overall, the feedback highlights the code's overall clarity and effectiveness, with the proposed improvement serving to further enhance its comprehensibility and utility.
+### Updated version
+1. First, assuming you have a table named "students" with columns "id" (primary key), "name", and "age".
+``` sql
+CREATE TABLE IF NOT EXISTS students (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    age INTEGER
+);
+```
+2. Add the sudents data in table using the insert query.
+```sql
+INSERT INTO students (name, age)
+VALUES 
+    ('Ravi', 20);
+
+```
+3. Then, you can use the following SQL statement to update or insert student records
+``` sql
+INSERT OR REPLACE INTO students (id, name, age)
+VALUES 
+    (1, 'Ravi', 20),  -- Assuming student with id 1 already exists, this will update Ravi's record
+    (2, 'Kuljit', 22), -- Assuming student with id 2 doesn't exist, this will insert a new record for Kuljit
+    (3, 'Monika', 21); -- Assuming student with id 3 doesn't exist, this will insert a new record for Monika
+```
+### Reflection
+Overall, I feel like I did a good job solving the problem. Someone needed help with the "insert or replace" query in SQL, so I did some research. I found a solution by creating a table first and then updating the data using the "insert or replace" query. After getting feedback from Kuljit, I added another step to add the data before updating it. This made the code easier to understand for everyone.
+### References
+* https://www.sqlitetutorial.net/sqlite-replace-statement/
 
