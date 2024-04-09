@@ -18,6 +18,10 @@ Lua is a programming language that's lightweight and easy to use. It's used in d
 
 ## Who uses the language?
 Lua is a popular programming language used by many people in different areas. Game developers use Lua to make video games more fun by adding special features like how characters move and how smart they are. Popular games like World of Warcraft, Roblox, and Angry Birds leverage Lua to enhance gameplay experiences. It's also liked by people who make small gadgets, like smart home devices, because Lua helps these gadgets do things without using up too much memory. Some computer programs let you write Lua to make them do special tasks, like organizing files or editing pictures. While not as common, Lua is also used in some websites to make them work better, the frameworks like OpenResty and Lapis, enabling the development of scalable web applications and APIs.
+### References
+* (Lua used in games) https://funtech.co.uk/latest/what-is-lua-used-for-common-applications-including-roblox#:~:text=Lua%20is%20used%20in%20many,mechanics%20and%20creating%20custom%20features.
+* (Lua used in photo editing software) https://en.wikipedia.org/wiki/List_of_applications_using_Lua#:~:text=Adobe%20Photoshop%20Lightroom%20uses%20Lua,Function)%20capabilities%2C%20similar%20to%20procedures
+* (Lua used in frameworks) https://leafo.net/lapis/#:~:text=Lapis%20is%20a%20framework%20for,a%20customized%20version%20of%20Nginx.
 
 ## What are some useful resources ?
 The resources which is mentioned below, offer a variety of learning options for anyone interested in mastering Lua. Whether you're a beginner or looking to deepen your understanding, these resources can help you learn Lua at your own pace and level of expertise.
