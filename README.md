@@ -104,6 +104,9 @@ Link: https://github.com/LitJSON/litjson/issues/159
 ### Summary
 This issue, raised by eternityman Feb 28, 2024, the issue states that the type System.Object cannot act as an array. When using LitJson's ToObject<T> method to deserialize JSON into an object of type T, the library attempts to convert the JSON data into the specified type. However, in this case, the JSON data is incompatible with the expected type, resulting in the LitJson.JsonException. The exception occurs within the JsonMapper class of the LitJson library, specifically in the ReadValue method, which is responsible for reading and converting JSON values.
 
+## Reflection
+While searching for issues, I initially explored three different websites recommended by the instructor: Good First Issue, Up for Grabs, and CodeTriage. Afterward, I delved into various repositories and reviewed the listed issues. Some were too complex to grasp, while others lacked clear explanations. Eventually, I selected three issues that seemed feasible for me to tackle. However, one of the chosen issues, the third one, was inadequately described. I responded to the thread seeking further clarification. Unfortunately, I received a late reply from the person, and by then, it was too late for me to address the issue.
+
 
 
 
