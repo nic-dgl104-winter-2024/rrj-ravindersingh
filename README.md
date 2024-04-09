@@ -50,3 +50,12 @@ I've created four different stories for people who use the Instagram app.
 2. As a user, I can go live on Instagram to share real-time moments and experiences with my followers.
 3. As a user, I can create reels on Instagram to share videos with my followers, utilizing features like music, effects, and editing tools to produce engaging and entertaining content.
 4. As a user, I can make audio or video calls and send messages to my contacts on Instagram.
+## Star github topic and repositories of interest
+
+* https://github.com/verybadcat/CSharpMath :- A GitHub repository for C# math library, offering tools for mathematical expression parsing, rendering, and formatting.
+
+* https://github.com/bitzhuwei/CSharpGL :- This GitHub project provides C# wrappers for OpenGL, enabling developers to create high-performance graphics applications and games.
+
+* https://github.com/KevinDockx/CSharp10DesignPatterns :- A GitHub repository featuring examples and explanations of various design patterns implemented in C# 10, aiding developers in understanding and implementing best practices in software design.
+
+* https://github.com/doghappy/socket.io-client-csharp :- A GitHub repository offering a C# client library for Socket.IO, allowing developers to communicate between server and client applications using WebSockets.
