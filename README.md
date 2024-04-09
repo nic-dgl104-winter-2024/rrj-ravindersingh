@@ -179,6 +179,13 @@ For part 2 of the community code project, I chose C# and decided to implement th
 
 I started by creating a basic example using a student class with name, age, and grade attributes. Then, I made sure that only one instance of this class existed using the singleton pattern. This allowed me to easily manage and update student data throughout the program without any duplication.
 
+## REFLECTION
+I successfully completed the setup for the community code project by installing the required packages and tools, forking the repository, and downloading the project to my computer. I confirmed everything was working smoothly with a simple "hello world" program.
+
+During my exploration of LitJson, I encountered a challenge when I realized there was no built-in function to ignore null values during deserialization. However, I found a manual method to address this issue through further research.
+
+Moving on to part 2 of the project, I chose C# and decided to implement the singleton pattern using the lazy singleton method. By creating a basic example with a student class and ensuring only one instance existed, I was able to effectively manage student data without duplication throughout the program.
+
 
 
 
