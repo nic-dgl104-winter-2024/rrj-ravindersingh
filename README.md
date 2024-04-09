@@ -42,3 +42,11 @@ For those who prefer structured learning, the chapter on Lua in the Springer lin
 If you're just starting out and want a beginner-friendly guide, the Turing blog post on Lua programming is an excellent resource. It provides a comprehensive introduction to Lua, covering everything from basic syntax to advanced topics, in an easy-to-understand format.
 ## Reflection
 Researching Lua has taught me a lot about how it's used in different areas. It's not just for making games but also for controlling smart devices and even websites. People who make games, software, and gadgets all use Lua. I found some helpful resources like the Lua website and Wikipedia, which explain everything in simple terms. These resources have made it easier for me to understand Lua and how it works. Overall, learning about Lua has been interesting, and I'm excited to use it in my projects.
+
+## Write a user story
+I've created four different stories for people who use the Instagram app.
+### User Stories
+1. As a user, I can upload photos or videos from my device to share them with my followers.
+2. As a user, I can go live on Instagram to share real-time moments and experiences with my followers.
+3. As a user, I can create reels on Instagram to share videos with my followers, utilizing features like music, effects, and editing tools to produce engaging and entertaining content.
+4. As a user, I can make audio or video calls and send messages to my contacts on Instagram.
