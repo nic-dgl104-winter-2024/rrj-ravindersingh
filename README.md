@@ -50,6 +50,9 @@ I've created four different stories for people who use the Instagram app.
 2. As a user, I can go live on Instagram to share real-time moments and experiences with my followers.
 3. As a user, I can create reels on Instagram to share videos with my followers, utilizing features like music, effects, and editing tools to produce engaging and entertaining content.
 4. As a user, I can make audio or video calls and send messages to my contacts on Instagram.
+
+## Choose a language for Community Code
+I've chosen C# for the community code project because I'm already learning it in our DGL - 111 course. Since I'm familiar with C# and interested in it, I want to gain more experience and knowledge by working on this project.
 ## Star github topic and repositories of interest
 
 * https://github.com/verybadcat/CSharpMath :- A GitHub repository for C# math library, offering tools for mathematical expression parsing, rendering, and formatting.
