@@ -67,7 +67,7 @@ I've chosen C# for the community code project because I'm already learning it in
 ### Community Code Project Repo
 For the community code project (part 1), I've picked two repositories: LitJson and SQLite. From LitJson, I've selected two issues to address, and from SQLite, I've chosen one issue to focus on solving.
 ### Repo 1: LitJson
-Link:- https://github.com/Ravi-takhi/litjson/tree/Ravi-Dev-Branch
+Link:- https://github.com/LitJSON/litjson
 
 ### Overview
    
@@ -79,6 +79,15 @@ Improves performance: With its lightweight design and optimized performance, Lit
 Enhances productivity: By providing a user-friendly API and comprehensive documentation, LitJSON helps developers save time and effort during the development process.
 
 ![Issue screenshot](https://github.com/nic-dgl104-winter-2024/rrj-ravindersingh/assets/54470199/f90500e0-049f-4900-850f-c6ca95715213)
+
+### Repo 2: queryBuilder
+Link:- https://github.com/sqlkata/querybuilder
+### Overview
+
+SqlKata Query Builder is a powerful Sql Query Builder written in C#. It's secure and framework agnostic. Inspired by the top Query Builders available, like Laravel Query Builder and Knex.SqlKata has an expressive API. it follows a clean naming convention, which is very similar to the SQL syntax. By providing a level of abstraction over the supported database engines, that allows you to work with multiple databases with the same unified API. SqlKata supports complex queries, such as nested conditions, selection from SubQuery, filtering over SubQueries, Conditional Statements and others. Currently, it has built-in compilers for SqlServer, MySql, PostgreSQL, and Firebird.
+
+![Issue screenshot](https://github.com/nic-dgl104-winter-2024/rrj-ravindersingh/assets/54470199/73d4e78a-b27c-4726-a708-3e434482e9dc)
+
 
 
 
