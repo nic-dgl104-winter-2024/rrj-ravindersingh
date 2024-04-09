@@ -107,6 +107,68 @@ This issue, raised by eternityman Feb 28, 2024, the issue states that the type S
 ## Reflection
 While searching for issues, I initially explored three different websites recommended by the instructor: Good First Issue, Up for Grabs, and CodeTriage. Afterward, I delved into various repositories and reviewed the listed issues. Some were too complex to grasp, while others lacked clear explanations. Eventually, I selected three issues that seemed feasible for me to tackle. However, one of the chosen issues, the third one, was inadequately described. I responded to the thread seeking further clarification. Unfortunately, I received a late reply from the person, and by then, it was too late for me to address the issue.
 
+### Week - 10
+## ASSESS EXTERNAL COMMUNITY CONTRIBUTION GUIDELINES
+Link :- https://github.com/LitJSON/litjson/blob/develop/README.md
+
+The LitJson repository on GitHub offers important guidelines for potential contributors, outlining key considerations for participation. These guidelines help ensure that contributions align with the project's objectives and provide clarity on the necessary steps for effective collaboration.
+
+#### Prerequisites
+The bootstrappers will (locally in repo)
+
+* Fetch and install .NET Core CLI / SDK version needed to compile LitJSON.
+* Fetch and install Cake runner
+* Execute build script with supplied target (--target=[Target]) or by default
+  
+  i.   Clean previous artifacts
+  
+  ii.  Restore build dependencies from NuGet
+  
+  iii. Build
+  
+  iv.  Run unit tests
+  
+  v.   Create NuGet package
+
+#### Using LitJSON from an application
+#### Package manager
+``` csharp
+Install-Package LitJson -Version 0.19.0
+```
+#### .NET CLI
+``` csharp
+dotnet add package LitJson --version 0.19.0
+```
+#### Paket CLI
+``` csharp
+paket add LitJson --version 0.19.0
+```
+Alternatively, just copy the whole tree of files under src/LitJSON to your own project's source tree and integrate it with your development environment.
+
+#### Requirements
+LitJSON currently targets and supports
+
+* .NET 8
+* .NET 6
+* .NET Standard 2.1
+* .NET Standard 2.0
+* .NET Standard 1.5
+* .NET Framework 4.8
+* .NET Framework 4.5
+* .NET Framework 4.0
+* .NET Framework 3.5 (including SQLCLR, for which WCOMAB/SqlServerSlackAPI is an example of)
+* .NET Framework 2.0
+* Mono 4.4.2 and above
+  
+#### Contributing
+So you’re thinking about contributing to LitJSON? Great! It’s really appreciated.
+
+* Create an issue
+* Fork the repository.
+* Create a feature branch from develop to work in.
+* Make your feature addition or bug fix.
+* Don't forget the unit tests.
+* Send a pull request.
 
 
 
