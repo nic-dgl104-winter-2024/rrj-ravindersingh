@@ -208,3 +208,12 @@ Overall, I feel like I did a good job solving the problem. Someone needed help w
 ### References
 * https://www.sqlitetutorial.net/sqlite-replace-statement/
 
+# Community Code Project(Part 2)
+
+## Overview
+In the communty code project part 2, I chose the c# language and decided to make the singleton pattern. The singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. In C#, there are various techniques to implement the singleton pattern, and one commonly used approach is the lazy singleton pattern.
+
+The lazy singleton pattern defers the instantiation of the singleton object until it is accessed for the first time. This means that the object is created only when it is needed, rather than eagerly instantiated at application startup. This approach is beneficial for scenarios where the creation of the singleton object is resource-intensive or needs to be deferred until it is actually required.
+
+
+
