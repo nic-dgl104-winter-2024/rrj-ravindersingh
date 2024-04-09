@@ -169,7 +169,10 @@ So you’re thinking about contributing to LitJSON? Great! It’s really appreci
 * Make your feature addition or bug fix.
 * Don't forget the unit tests.
 * Send a pull request.
+## CONTRIBUTE TO EXTERNAL COMMUNITY
+After reviewing all the requirements, I installed all the necessary packages and tools as instructed. Next, I forked the repository and downloaded the project to my computer. To check if everything was set up correctly, I created a simple "hello world" program and ensured it compiled and ran smoothly.
 
+Then, I explored various websites and thoroughly read the documentation for LitJson. I realized there wasn't a built-in function to ignore null values during deserialization. After some research, I discovered a manual method to ignore null values while deserializing the data.
 
 
 
