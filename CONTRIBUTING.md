@@ -215,7 +215,7 @@ In the communty code project part 2, I chose the c# language and decided to make
 
 The lazy singleton pattern defers the instantiation of the singleton object until it is accessed for the first time. This means that the object is created only when it is needed, rather than eagerly instantiated at application startup. This approach is beneficial for scenarios where the creation of the singleton object is resource-intensive or needs to be deferred until it is actually required.
 
-### Implementation of Singleton class with lazy technique
+### Implementation of Singleton pattern with lazy technique
 
 ``` csharp
               /* ------>  Reference singleton pattern <--------  */  
@@ -344,6 +344,9 @@ class Program
 
 }
 ```
+### Output
+![Output](https://github.com/nic-dgl104-winter-2024/rrj-ravindersingh/assets/54470199/b4c45ccf-c75b-4b11-9d6c-1b312ea48145)
+
 
 
 
