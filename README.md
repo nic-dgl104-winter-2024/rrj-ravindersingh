@@ -210,6 +210,11 @@ During my exploration of LitJson, I encountered a challenge when I realized ther
 
 In part 2 of the project, I added more features. First, I created another object and updated the data. Then, I made another instance and checked if they were the same. Finally, I checked if the instance existed or not.
 
+## Reflection of Overall Projects and RRJ
+Part - 1 Reflection (External Community)
+
+In the community code external project, I learned how people collaborate on different projects by sharing them on platforms like GitHub. They make their projects public and invite others to contribute by doing things like creating documentation, reviewing code, and testing for errors. If someone encounters a problem they can't solve, they can create an issue and others can work on solving it. Additionally, project owners can review and approve changes made by others before merging them into the main project. People can also fork projects, create separate branches, and work on different parts of the project simultaneously. This collaborative approach allows for efficient teamwork and helps projects progress more effectively.
+
 
 
 
