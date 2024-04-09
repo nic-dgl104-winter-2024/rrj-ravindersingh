@@ -99,6 +99,12 @@ Link: https://github.com/sqlkata/querybuilder/issues/641
 ### Summary 
 This issue, raised by H0nok4 on Nov 17, 2022, The person is having trouble with doing an "insert or replace" action in SQLite. They're finding it tricky to insert new data or replace existing data in the table at the same time. They're looking for a straightforward way to solve this problem in SQLite.
 
+### Issue 3: Type System.Object can't act as an array #159
+Link: https://github.com/LitJSON/litjson/issues/159
+### Summary
+This issue, raised by eternityman Feb 28, 2024, the issue states that the type System.Object cannot act as an array. When using LitJson's ToObject<T> method to deserialize JSON into an object of type T, the library attempts to convert the JSON data into the specified type. However, in this case, the JSON data is incompatible with the expected type, resulting in the LitJson.JsonException. The exception occurs within the JsonMapper class of the LitJson library, specifically in the ReadValue method, which is responsible for reading and converting JSON values.
+
+
 
 
 
